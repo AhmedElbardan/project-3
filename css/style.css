@@ -1,0 +1,494 @@
+/* 1- GENERAL STYLES
+2- COMMON STYLES
+3- SECTIONS  
+1 HOME SECTION
+1.0 HEADER SECTION
+1.1 LOGIN SECTION
+1.2 BG-SLIDER SECTION
+2 INFORMATION SECTION
+2.0 ABOUT US SECTION
+2.1 FAMOUS-ACCORDION SECTION
+2.2 SITE INSIGHT SECTION
+3.0 NUMBREAK1 SECTION
+4.0 CARDS SECTION 
+5.0 NUMBREAK2 SECTION
+6.0  TEAM SECTION 
+7.0 LEGENDS SECTION
+8.0 JOIN US SECTION
+9 END SECTION
+10 @media */
+/* 1- GENERAL STYLES ---------------------------------------------------------------------------------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e0c6a2;
+    font-family: 'varela round' , sans-serif;
+}
+/* 2- COMMON STYLES ---------------------------------------------------------------------------------------------------------- */
+h2 {
+    text-transform: capitalize;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hr {
+    background-color: rgb(0, 0, 0);
+    line-height: 10px;
+}
+.info1 , .info2 , .info3 , .info4 , .info5 , .info6 {
+    width: 100%;
+}
+.info2 h2 , .info3 h2 , .info5 h2 , .info6 h2 {
+    display: grid;
+    place-items: center;
+    height: 11vh;
+    font-size: 32.5px;
+    color: #ffffff;
+    text-shadow: -5px 5px 3px #000000;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.numbreak1 , .numbreak-content2 {
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.legends h2 , .join h2 {
+    text-align: center;
+    height: 10vh;
+    font-size: 45px;
+    padding-top: 5vh;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* 3- SECTIONS   ---------------------------------------------------------------------------------------------------------- */
+/* HOME SECTION */
+/* 1.0 HEADER ---------------------------------------------------------------------------------------------------------- */
+.dropdown-item:active {
+    background-color: #d29a6a;
+}
+/* 1.1 LOGIN ---------------------------------------------------------------------------------------------------------- */
+.mb-3 p {
+    opacity: .5;
+}
+/* 1.2 BG-SLIDER ---------------------------------------------------------------------------------------------------------- */
+.carousel-item .d-block {
+    height: 100vh;
+    width: 100%;
+}
+.c-c {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 76px;
+}
+.icon1 {
+    font-size: 45px;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    color: #c0bdbda4;
+}
+.icon1:hover {
+    color: #ffffff;
+}
+/* 2 INFORMATION SECTION */
+/* 2.0 ABOUT US SECTION ---------------------------------------------------------------------------------------------------------- */
+.info1 {
+    height: 37vh;
+    background-color: rgb(132, 89, 40);
+    border-radius: 0 0 10px 10px;
+    margin-top: -16px;
+}
+.info1 p {
+    color: #ffffff;
+    width: 80%;
+    margin: -3vh 4vh;
+    text-shadow: -3px 3px 3px #000000;
+}
+h1 {
+    color: #ffffff;
+    text-shadow: -5px 5px 2px #000000;
+    font-size: 30px;
+    padding: 4vh;
+}
+/* 2.1 FAMOUS-ACCORDION SECTION ---------------------------------------------------------------------------------------------------------- */
+.info2 {
+    height: 20vh;
+    background-color: rgba(160, 97, 30, 0.914);
+    margin-top: 15px;
+    border-radius: 10px 10px 0 0;
+}
+.info2 h2 {
+    height: 20vh;
+}
+.accordion-button:focus , .accordion-button:not(.collapsed) {
+    background-color: rgb(58, 64, 69);
+    color: #ffffff;
+}
+#flush-collapseOne , #flush-collapseTwo , #flush-collapseThree {
+    background-color: #ddd8d8a5;
+}
+.accordion-button {
+    background-color: rgb(211, 161, 107);
+}
+/* 2.2 SITE INSIGHT SECTION ---------------------------------------------------------------------------------------------------------- */
+.info3 {
+    height: 12vh;
+    background-color: rgba(160, 97, 30, 0.914);
+    margin-top: 15px;
+    border-radius: 10px 10px 0 0;
+}
+.info4 {
+    height: 50vh;
+    background-color: rgba(202, 142, 78, 0.71);
+    border-radius: 0 0 10px 10px;
+}
+.info4 p {
+    padding: 5vh;
+    width: 95%;
+}
+.info4 textarea {
+    margin: 2vh 5vh;
+    display: block;
+    width: 80%;
+    height: 30%;
+}
+.btn3 , .btn4 {
+    margin-top: -5vh;
+    margin-left: 5vh;
+    width: 80px;
+}
+.btn4 {
+    margin-left: 10px;
+}
+strong {
+    color: #266189;
+}
+/* 3.0 NUMBREAK1 SECTION ---------------------------------------------------------------------------------------------------------- */
+.numbreak1 {
+    background-image: url(../image/background1.png);
+}
+/* 4.0 CARDS SECTION ---------------------------------------------------------------------------------------------------------- */
+.info5 {
+    height: 12.5vh;
+    background-color: rgba(160, 97, 30, 0.914);
+    border-radius: 0 0 10px 10px;
+}
+.cont {
+    margin: 10vh auto;
+}
+.card {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.595);
+    width: 45vh;
+    margin-top: 20px;
+}
+.card p {
+    margin-top: 15px;
+}
+.card-body a {
+    float: right;
+}
+.aft1 {
+    position: relative;
+}
+.aft1:before , .aft1:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+    background-color: #ffb45265;
+    opacity: 0;
+    transition: 1s;
+}
+.aft1:after {
+    top: 0;
+    left: 0;
+}
+.aft1:hover:before , .aft1:hover:after {
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+}
+.aft1:before , .aft1:hover:after {
+    opacity: 1;
+}
+/* 5.0 NUMBREAK2 SECTION ---------------------------------------------------------------------------------------------------------- */
+.numbreak-content2 {
+    background-image: url(../image/background2.png);
+}
+/* 6.0  TEAM SECTION  ---------------------------------------------------------------------------------------------------------- */
+.info6 {
+    height: 12vh;
+    background-color: rgba(160, 97, 30, 0.914);
+    border-radius: 0 0 10px 10px;
+}
+.team-item1 , .team-item2 , .team-item3 {
+    transition: .5s;
+    width: 50vh;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.team-item1 {
+    background-image: url(../image/t1.jpg);
+}
+.team-item2 {
+    background-image: url(../image/t2.jpg);
+}
+.team-item3 {
+    background-image: url(../image/t3.jpg);
+}
+.team-item1:hover , .team-item2:hover , .team-item3:hover {
+    transform: scale(0.9, 0.9);
+    transition: .5s;
+}
+.overlay2 {
+    background-color: rgba(49, 48, 48, 0.5);
+    transition: .5s;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 10px;
+    margin-left: -11px;
+}
+.overlay2:hover {
+    background-color: #d29b6a6f;
+    transition: .5s;
+}
+.overlay2 p , .overlay2 span{
+    color: #ffffff;
+    font-size: 20px;
+}
+.overlay2 span{
+    margin: -30px 20px; position: absolute;
+}
+.overlay2 div p {
+    margin: 10px 25px;
+    line-height: 22px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.overlay2 img {
+    width: 30%;
+    margin: 60px 20px;
+    position: absolute;
+    bottom: 0;
+}
+/* 7.0 LEGENDS SECTION  ---------------------------------------------------------------------------------------------------------- */
+.legends {
+    background-color: rgb(233, 216, 185);
+    margin-top: -16px;
+}
+.legends .hide {
+    border-radius: 15px;
+    background-color: rgba(221, 166, 107, 0.807);
+    width: 80%;
+    height: 50vh;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.595);
+}
+.hide , .container1 , .container2 {
+    overflow: hidden;
+}
+.container-fluid .img2 {
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.container-fluid:hover .img2 {
+    transform: scale(1.2, 1.2);
+}
+.container-fluid:hover div .progress {
+    width: 100%;
+    transition: 1s;
+}
+.g-0 {
+    position: relative;
+}
+.container1 {
+    width: 35vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+    position: absolute;
+    right: -15px;
+}
+.container2 {
+    width: 35vh;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    margin-left: -1.5%;
+}
+.progress {
+    background-color: rgba(255, 255, 255, 0);
+    height: 4px;
+    width: 50%;
+    transition: 1s;
+}
+.progress-bar {
+    height: 100%;
+    width: 27.5%;
+}
+.texts {
+    margin: 3.5%;
+}
+.texts p {
+    width: 75%;
+    margin-top: 10px;
+    opacity: 1;
+}
+.texts span {
+    color: black;
+    font-size: 40px;
+}
+/* 8.0 JOIN US SECTION ---------------------------------------------------------------------------------------------------------- */
+.join {
+    background-color: rgb(233, 216, 185);
+    width: 100%;
+    height: 60vh;
+    margin-top: -16px;
+}
+.join p {
+    font-size: 20px; margin-top: 10px;
+}
+.divs div {
+    width: 30vh;
+    height: 30vh;
+    transition: .5s;
+    background-color: rgba(221, 166, 107, 0.807);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.595);
+}
+.divs div:hover {
+    background-color: rgba(39, 37, 34, 0.914);
+    color: #ffffff;
+    transition: .5s;
+}
+.icon2 {
+    font-size: 70px;
+}
+/* 9 END SECTION  ---------------------------------------------------------------------------------------------------------- */
+.foot {
+    background-color: rgba(160, 97, 30, 0.7);
+    padding-bottom: 5vh;
+    text-transform: capitalize;
+}
+.col-lg-4 img {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.595) ;
+    width: 90px;
+    height: 90px;
+}
+.col-lg-4 i {
+    font-size: 25px;
+    margin-left: 50px;
+}
+.col-lg-4 p a , .col-lg-4 i {
+    text-decoration: none;
+    color: white;
+    transition: .25s;
+}
+.col-lg-4 p a:hover{
+    color: #222;
+    transition: .25s;
+}
+/* 10 @media  ---------------------------------------------------------------------------------------------------------- */
+@media (max-width: 1080px ) {
+    .container-fluid:hover div .progress {
+        width: 200%;
+        transition: 1s;
+    }
+    .cont1 {
+        margin-top: 55vh;
+    }
+    .container1 {
+        width: 100%;
+        height: 50vh;
+        margin: 15px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-radius: 10px;
+    }
+    .container2 {
+        width: 100%;
+        height: 50vh;
+        margin-top: 15px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    .progress {
+        background-color: rgba(255, 255, 255, 0);
+        height: 4px;
+        width: 100%;
+        transition: 1s;
+    }
+}
+@media (max-width: 992px ) {
+    .join {
+        height: 60vh;
+    }
+}
+@media (max-width: 927px ) {
+    .join {
+        height: 100vh;
+    }
+}
+@media (max-width: 768px ) {
+    .join {
+        height: 120vh;
+    }
+    .join .text-center  {
+        margin: 20px;
+    }
+    .row .team-item1 , .row .team-item2 , .row .team-item3 {
+        margin: 30px 20px;
+    }
+    .join {
+        height: 170vh;
+    }
+    .join .row  {
+        margin: 20px;
+    } 
+}
+@media (max-width: 700px ) {
+    .btn1 {
+        display: none;
+    }
+}
+@media (max-width: 624px ) {
+    .join {
+        height: 170vh;
+    }
+}
+@media (max-width: 567px ) {
+    .list1 {
+        margin-top: 225px;
+    }
+    .carousel-item .d-block {
+        height: 70vh;
+        width: 100%;
+    }
+    .info1 {
+        height: 45vh;
+        margin-top: -225px;
+    }
+    .btn1 {
+        display: block;
+    }
+    .texts .btn {
+        font-size: 9px;
+    }
+    .team-item1 , .team-item2 , .team-item3 {
+        width: 40vh;
+        height: 50vh;
+        }
+        .overlay2 {
+            width: 40vh;
+            height: 50vh;
+        }
+}
